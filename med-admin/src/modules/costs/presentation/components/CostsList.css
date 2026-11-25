@@ -1,0 +1,63 @@
+.cost-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cost-row {
+    padding: 14px 16px;
+    border: 1px solid var(--color-bg-subtle);
+    border-radius: var(--border-radius-md);
+    background: var(--color-bg-surface);
+}
+
+.cost-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.cost-description {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.cost-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: var(--color-text-secondary);
+}
+
+.cost-amount {
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.cost-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+}
+
+.cost-appointment-link {
+    color: var(--color-primary-main);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cost-appointment-link:hover {
+    text-decoration: underline;
+}

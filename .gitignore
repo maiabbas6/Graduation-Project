@@ -1,0 +1,29 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.dart_tool/
+.pub-cache/
+coverage/
+
+# Logs and temporary files
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.fleet/

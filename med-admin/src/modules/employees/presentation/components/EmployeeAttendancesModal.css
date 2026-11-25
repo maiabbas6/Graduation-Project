@@ -1,0 +1,46 @@
+.attendances-modal-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.attendances-modal-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-bg-subtle);
+}
+
+.attendances-modal-row:last-child {
+  border-bottom: none;
+}
+
+.attendances-modal-date {
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+.attendances-modal-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.attendances-modal-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 0;
+  color: var(--color-text-secondary);
+}
+
+.attendances-modal-error p {
+  margin: 0;
+}

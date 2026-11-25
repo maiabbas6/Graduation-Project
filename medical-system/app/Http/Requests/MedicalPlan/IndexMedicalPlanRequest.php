@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Http\Requests\MedicalPlan;
+
+use Illuminate\Contracts\Validation\ValidationRule;
+use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
+
+class IndexMedicalPlanRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     */
+    public function authorize(): bool
+    {
+        return Auth::user()->can('medical_plan.index');
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, ValidationRule|array<mixed>|string>
+     */
+    public function rules(): array
+    {
+        return [
+            'employee_id' => 'sometimes|int|exists:employees,id',
+            'medical_record_id' => 'sometimes|int|exists:medical_records,id',
+            'per_page' => 'sometimes|int|min:1|max:100',
+        ];
+    }
+}

@@ -1,0 +1,23 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.page-header-action {
+  text-decoration: none;
+}
+
+.employee-card-head {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.employee-count {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary-main);
+}

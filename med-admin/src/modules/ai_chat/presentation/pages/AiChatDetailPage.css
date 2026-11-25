@@ -1,0 +1,18 @@
+.ai-section-title {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.ai-back-link {
+  margin-bottom: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary-main);
+  text-decoration: none;
+}
+
+.ai-back-link:hover {
+  text-decoration: underline;
+}

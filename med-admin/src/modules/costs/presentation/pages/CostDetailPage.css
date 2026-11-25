@@ -1,0 +1,58 @@
+.cost-detail-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.cost-detail-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.cost-detail-list {
+    margin: 0;
+}
+
+.cost-detail-list .detail-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-bg-subtle);
+}
+
+.cost-detail-list .detail-item:last-child {
+    border-bottom: none;
+}
+
+.cost-detail-list dt {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+}
+
+.cost-detail-list dd {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    text-align: end;
+}
+
+.cost-detail-actions {
+    margin-top: 20px;
+}
+
+.cost-detail-appointment {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--color-primary-main);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cost-detail-appointment:hover {
+    text-decoration: underline;
+}

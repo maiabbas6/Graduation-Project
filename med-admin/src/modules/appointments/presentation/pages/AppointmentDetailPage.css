@@ -1,0 +1,120 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.page-header-action {
+  text-decoration: none;
+}
+
+.detail-link {
+  color: var(--color-primary-main);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.detail-link:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+.appointment-detail-hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.appointment-detail-heading h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-transform: capitalize;
+}
+
+.appointment-detail-meta {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.appointment-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.appointment-detail-section-title {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.appointment-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.detail-item dt {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.detail-item dd {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  text-align: right;
+}
+
+.detail-text {
+  white-space: pre-wrap;
+}
+
+.attachment-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.attachment-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-bg-subtle);
+}
+
+.attachment-row:last-child {
+  border-bottom: none;
+}
+
+.attachment-name {
+  flex: 1;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.attachment-date {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}

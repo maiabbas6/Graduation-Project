@@ -1,0 +1,95 @@
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.client-detail-hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.client-detail-avatar {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--border-radius-md);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.client-detail-heading h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.client-detail-meta {
+  margin: 4px 0 8px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.client-detail-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.client-detail-section-title {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.client-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+
+.medical-record-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.medical-record-row {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-bg-subtle);
+}
+
+.medical-record-row:last-child {
+  border-bottom: none;
+}
+
+.medical-record-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.medical-record-date {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.medical-record-description {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+}
